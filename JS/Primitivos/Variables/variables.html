@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Variables</title>
+</head>
+<body>
+	<p id="Parrafo1"></p>
+	<p id="Parrafo2"></p>
+	<script >
+		/*
+		-identificadores unicos(no se deben utilizar en varias variables)
+		-identificadores descriptivos(no se repita el nombre)
+		-pueden contener cadenas , numeros, booleanos,etc
+		-casesensitive
+		-no se deben utilizar palabras reservadas
+		*/
+		var nombre;//declaracion de variable
+
+		document.getElementById("Parrafo1").innerHTML=nombre;//Mostramos el valor de la variable en la pag
+
+		nombre="Juan"//Asignacion de valor de una variable
+
+		document.getElementById("Parrafo2").innerHTML=nombre;
+
+		var pais="tanzania",ciudad="yuliju",continente="africa",id="567",
+			info=pais + ciudad + continente + id;
+		
+		document.write(info);
+
+	</script>
+
+</body>
+</html>
